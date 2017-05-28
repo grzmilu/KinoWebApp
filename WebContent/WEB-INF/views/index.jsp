@@ -51,9 +51,9 @@
 					<h2>
 						<a href='movie_detail?title=${latest.title}'>${latest.title}</a>
 					</h2>
-					<iframe id="ytplayer" type="text/html" width="683" height="512"
-						src="https://www.youtube.com/v/${latest.trailer}?disablekb=1&fs=0&rel=0&showinfo=0&autohide=1&iv_load_policy=3&vq=large"
-						frameborder="0"></iframe>
+						<div style="width: 683px; height: 512px; float: none; clear: both; margin: 2px auto;">
+  							<embed src="https://www.youtube.com/v/${latest.trailer}?disablekb=1&fs=0&rel=0&showinfo=0&autohide=1&iv_load_policy=3&vq=large" wmode="transparent" type="application/x-shockwave-flash" width="100%" height="100%" allowfullscreen="true" title="Adobe Flash Player">
+						</div>
 					<p>${latest.description}</p>
 				</section>
 				<section class="tile">
@@ -112,7 +112,7 @@
 
 		<footer class="clear">
 			<section class="footer">
-				<p>Copyright © 2016 | Grupa C</p>
+				<p>Copyright © 2017 | Grzmil Paweł</p>
 			</section>
 		</footer>
 	</div>

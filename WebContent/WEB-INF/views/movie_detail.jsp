@@ -109,7 +109,7 @@
 
 		<footer class="clear">
 			<section class="footer">
-				<p>Copyright © 2016 | Grupa C</p>
+				<p>Copyright © 2017 | Grzmil Paweł</p>
 			</section>
 		</footer>
 	</div>
